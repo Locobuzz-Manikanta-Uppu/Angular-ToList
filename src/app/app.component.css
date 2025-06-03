@@ -1,0 +1,11 @@
+h1 {
+  justify-content: center;
+  font-size: 2.5rem;
+
+}
+
+app-stats-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,9 @@
+<!-- src/app/stats-panel/stats-panel.component.html -->
+<div class="stats-panel">
+  <h3>📊 Task Stats</h3>
+  <ul>
+    <li>🟢 Added: {{ (stats$ | async)?.added }}</li>
+    <li>🗑️ Deleted: {{ (stats$ | async)?.deleted }}</li>
+    <li>✏️ Edited: {{ (stats$ | async)?.edited }}</li>
+  </ul>
+</div>
